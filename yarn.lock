@@ -146,10 +146,10 @@
   resolved "https://registry.yarnpkg.com/@types/rimraf/-/rimraf-0.0.28.tgz#5562519bc7963caca8abf7f128cae3b594d41d06"
   integrity sha1-VWJRm8eWPKyoq/fxKMrjtZTUHQY=
 
-ace-builds@1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/ace-builds/-/ace-builds-1.4.2.tgz#6afc2e43a7b5effdc44d8407436112852568e80d"
-  integrity sha512-M1JtZctO2Zg+1qeGUFZXtYKsyaRptqQtqpVzlj80I0NzGW9MF3um0DBuizIvQlrPYUlTdm+wcOPZpZoerkxQdA==
+ace-builds@1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/ace-builds/-/ace-builds-1.4.7.tgz#56e5465270b6c48a48d30e70d6b8f6b92fbf2b08"
+  integrity sha512-gwQGVFewBopRLho08BfahyvRa9FlB43JUig5ItAKTYc9kJJsbA9QNz75p28QtQomoPQ9rJx82ymL21x4ZSZmdg==
 
 acorn-jsx@^3.0.0:
   version "3.0.1"

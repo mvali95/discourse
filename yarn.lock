@@ -1413,9 +1413,10 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-"highlight.js@https://github.com/highlightjs/highlight.js":
-  version "9.13.1"
-  resolved "https://github.com/highlightjs/highlight.js#1b10552510a1ec13a3d30d46281dc268553ad157"
+highlight.js@9.16.2:
+  version "9.16.2"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.16.2.tgz#68368d039ffe1c6211bcc07e483daf95de3e403e"
+  integrity sha512-feMUrVLZvjy0oC7FVJQcSQRqbBq9kwqnYE4+Kj9ZjbHh3g+BisiPgF49NyQbVLNdrL/qqZr3Ca9yOKwgn2i/tw==
 
 homedir-polyfill@^1.0.1:
   version "1.0.1"

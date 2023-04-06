@@ -16,13 +16,13 @@ if rails_master?
 else
   # until rubygems gives us optional dependencies we are stuck with this
   # bundle update actionmailer actionpack actionview activemodel activerecord activesupport railties
-  gem 'actionmailer', '6.0.0'
-  gem 'actionpack', '6.0.0'
-  gem 'actionview', '6.0.0'
-  gem 'activemodel', '6.0.0'
-  gem 'activerecord', '6.0.0'
-  gem 'activesupport', '6.0.0'
-  gem 'railties', '6.0.0'
+  gem 'actionmailer', '6.1.7.3'
+  gem 'actionpack', '6.1.7.3'
+  gem 'actionview', '6.1.7.3'
+  gem 'activemodel', '6.1.7.3'
+  gem 'activerecord', '6.1.7.3'
+  gem 'activesupport', '6.1.7.3'
+  gem 'railties', '6.1.7.3'
   gem 'sprockets-rails'
 end
 
@@ -39,7 +39,7 @@ gem 'mini_suffix'
 gem 'redis', '4.1.3'
 gem 'redis-namespace'
 
-gem 'active_model_serializers', '~> 0.8.3'
+gem 'active_model_serializers', '~> 0.8.4'
 
 gem 'onebox', '1.9.20'
 
@@ -50,9 +50,9 @@ gem 'discourse-ember-source', '~> 3.10.0'
 gem 'ember-handlebars-template', '0.8.0'
 gem 'barber'
 
-gem 'message_bus'
+gem 'message_bus', '>= 3.3.7'
 
-gem 'rails_multisite'
+gem 'rails_multisite', '>= 4.0.0'
 
 gem 'fast_xs', platform: :mri
 
@@ -63,7 +63,7 @@ gem 'fastimage'
 
 gem 'aws-sdk-s3', require: false
 gem 'aws-sdk-sns', require: false
-gem 'excon', require: false
+gem 'excon', '>= 0.71.0', require: false
 gem 'unf', require: false
 
 gem 'email_reply_trimmer', '~> 0.1'
@@ -73,18 +73,18 @@ gem 'email_reply_trimmer', '~> 0.1'
 gem 'discourse_image_optim', require: 'image_optim'
 gem 'multi_json'
 gem 'mustache'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.9'
 gem 'css_parser', require: false
 
-gem 'omniauth'
-gem 'omniauth-openid'
+gem 'omniauth', '>= 2.1.0'
+gem 'omniauth-openid', '>= 2.0.1'
 gem 'openid-redis-store'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-instagram'
-gem 'omniauth-github'
+gem 'omniauth-github', '>= 2.0.0'
 
-gem 'omniauth-oauth2', require: false
+gem 'omniauth-oauth2', '>= 1.7.1', require: false
 
 gem 'omniauth-google-oauth2'
 
@@ -96,10 +96,10 @@ gem 'r2', '~> 0.2.5', require: false
 gem 'rake'
 
 gem 'thor', require: false
-gem 'diffy', require: false
+gem 'diffy', '>= 3.4.1', require: false
 gem 'rinku'
-gem 'sanitize'
-gem 'sidekiq'
+gem 'sanitize', '>= 6.0.1'
+gem 'sidekiq', '>= 6.2.1'
 gem 'mini_scheduler'
 
 # for sidekiq web
@@ -137,7 +137,7 @@ group :test, :development do
   gem 'mocha', require: false
   gem 'rb-fsevent', require: RUBY_PLATFORM =~ /darwin/i ? 'rb-fsevent' : false
   gem 'rb-inotify', '~> 0.9', require: RUBY_PLATFORM =~ /linux/i ? 'rb-inotify' : false
-  gem 'rspec-rails', '4.0.0.beta2', require: false
+  gem 'rspec-rails', '4.0.0', require: false
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.3', require: false
   gem 'rspec-html-matchers'
   gem 'pry-nav'
@@ -149,7 +149,7 @@ end
 group :development do
   gem 'ruby-prof', require: false
   gem 'bullet', require: !!ENV['BULLET']
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'yaml-lint'
 
@@ -179,7 +179,7 @@ gem 'flamegraph', require: false
 gem 'rack-mini-profiler', require: false
 
 gem 'unicorn', require: false, platform: :mri
-gem 'puma', require: false
+gem 'puma', '>= 4.3.12', require: false
 gem 'rbtrace', require: false, platform: :mri
 gem 'gc_tracer', require: false, platform: :mri
 
